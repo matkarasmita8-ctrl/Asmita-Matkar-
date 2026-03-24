@@ -1,0 +1,13 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Mar 24 10:03:43 2026
+
+@author: Asmita
+"""
+
+with open("attendance.txt", "a") as f:
+    name = input("Enter student name: ")
+    status = input("Enter attendance (Present/Absent): ")
+    f.write(name + " - " + status + "\n")
+
+print("Record added successfully!")
